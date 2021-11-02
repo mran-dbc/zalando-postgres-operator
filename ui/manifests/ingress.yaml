@@ -7,7 +7,7 @@ metadata:
     application: "postgres-operator-ui"
 spec:
   rules:
-    - host: "ui.example.org"
+    - host: "postgres-operator-ui.k8s-stg.dbccloud.dk"
       http:
         paths:
           - path: /
